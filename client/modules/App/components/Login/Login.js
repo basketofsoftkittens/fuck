@@ -13,6 +13,17 @@ export class Login extends Component {
           <h1>
             Login
           </h1>
+          <form>
+            <label>
+            Email:
+              <input type="text" name="Email" />
+            </label>
+            <label>
+            Password:
+              <input type="text" name="Password" />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
         </div>
       </div>
     );
